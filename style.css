@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.5px solid red */
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+li{
+    list-style-type: none;
+    /* SE PONE ASI PARA SACAR LOS PUNTITOS DE A LISTA */    
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+header{
+    height: 80px;
+    width: 1100px;
+    margin: auto;
+}
+
+header img { 
+    height: 60px;
+    margin: 10px;
+}
+
+nav {
+    float: right; /* El menú queda a la derecha */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Los elementos del menú quedan en línea */
+    margin:20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #b26c32; 
+}
+
+
+
+#slide{
+    height: 500px;
+    background-image: url(images/silde1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -50px; 
+    display: flex;
+}
+#slide div {
+    width:  1100px;
+     margin: auto;
+}
+#slide div h1{
+    width: 400px;
+    color: rgb(206, 102, 67);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#slide div p {
+
+    width: 450px;
+    color: rgb(10, 9, 8);
+    
+}
+main {
+    width: 1100px;
+    margin: auto;
+
+}
+#productos h2 {
+    font-size: 30px;
+    color:rgb(255, 164, 53);
+    text-align: center;
+margin: 20px 0 20px 0;
+
+}
+#productos p {
+    font-size: 15px;
+    color: rgb(138, 138, 138);
+    text-align: center;
+    margin: 20px 0 20px 0;
+
+}
+#promos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#promos h3{
+    font-size: 34px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+#promos #promo-1 {
+    color: #eee;
+    width: 500px;
+    height: 300px;
+    padding: 100px 80px;
+}
+
+#promos #promo-1 {
+    background-color: rgb(211, 207, 174);
+}
+
+#prodcutosGenerales {
+    display: flex;
+    justify-content: space-between;
+
+    #productosGenerales article {
+        width: 339px;
+        background-color: var(--colorPromo1);
+        color: #eee;
+    }
+    #productosGenerales article h3 {
+        margin: 24px 36px 16px 36px;
+    }
+    #productosGenerales article p {
+        margin: 8px 36px 16px 36px;
+    }
+}
+
+footer {
+    background-color:rgb(203, 154, 130);
+    margin-top: 80px;
+}
+
+    #pie {
+        width: 1100px;
+        margin: auto;
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #000000;
+    }
+    
+        .social img {
+            width: 24px;
+            margin-left: 12px;
+        }
+
+
+        #enlaces {
+            display: flex;
+        }
+
+        #enlaces ul {
+            margin-left: 76px;
+        }
+
+            .titulo-lista {
+                font-weight: 600;
+            }
+
+        #enlaces li {
+            list-style-type: none;
+            margin: 4px 0;
+        }
+
